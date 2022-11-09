@@ -1,0 +1,504 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.header_top {
+    background: url(../images/capadocia_bg.jpg) center / cover no-repeat;
+    height: 100vh;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 40%;
+    align-items: center;
+
+}
+
+.menu a {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+#phone {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+#phone img {
+    flex: 0 1 13%;
+    margin-right: 10px;
+
+}
+
+.header_h {
+    font-family: "Balqis";
+    font-size: 250px;
+    font-weight: 400;
+    margin-top: 15%;
+}
+
+.header_p {
+    font-family: "Roboto Condensed";
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header_div1 {
+    position: relative;
+}
+
+.main-section1 {
+    padding-top: 10%;
+}
+
+.carousel {
+    width: 50%;
+    height: 500px;
+}
+
+.carousel_item img {
+    width: 100%;
+    height: 500px;
+}
+
+.main_h3 {
+    font-family: "Balqis";
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+}
+
+.main_header {
+    position: relative;
+}
+
+.main_p {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    position: absolute;
+    left: 20%;
+    bottom: -10%;
+}
+
+
+.main_div {
+    width: 40%;
+}
+
+.carousel_div {
+    display: flex;
+    padding-top: 10%;
+}
+
+.main_div_p {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    flex: 0 1 32%;
+}
+
+.main_h4 {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main-section2 {
+    padding-top: 10%;
+    display: flex;
+    justify-content: end;
+}
+
+.route {
+    width: 89%;
+    display: flex;
+    padding-top: 10%;
+}
+
+.route_h4 {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 27px 0;
+}
+
+
+.route_div p {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    width: 55%;
+}
+
+.route_main_div .container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+.route_main_div .container p {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    width: 55%;
+}
+
+.route_main_div {
+    width: 50%;
+}
+
+.route_main_div button {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    border: #E2AB3F solid 1px;
+    background-color: #FFFFFF;
+    padding: 11px 48px;
+}
+
+.route .carousel {
+    width: 50%;
+    height: 500px;
+}
+
+.route.carousel_item img {
+    width: 100%;
+    height: 500px;
+}
+
+.route_main_div .main_header {
+    position: relative;
+    ;
+}
+
+.route_main_div .main_p {
+    position: absolute;
+    bottom: -20%;
+    left: 39%;
+}
+
+.hotel_div {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-top: 100px;
+
+}
+
+
+.hotel_p {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    width: 100%;
+
+}
+
+.hotel_main_img img {
+    width: 100%;
+}
+
+.hotel_main_img {
+    width: 38%;
+
+}
+
+
+.hotel_div2 {
+    width: 55%;
+    padding-bottom: 15%;
+}
+
+.hotel_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+
+}
+
+.hotel_img img {
+    width: 45%;
+    /* height: 100%; */
+    padding-top: 15px;
+}
+
+.hotel_img {
+    width: 100%;
+}
+
+.hotel .container {
+    padding-top: 10%;
+}
+
+.hotel_main_p {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+/* Price */
+.price .main_header {
+    /* margin-top: 15%; */
+    position: relative;
+}
+
+.price .main_p {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.price {
+    position: relative;
+}
+
+.price_h3 {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.price_p {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.price_p2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.included {
+    width: 50%;
+}
+
+.not_included {
+    width: 40%;
+}
+
+.price_div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.small_balloon {
+    position: absolute;
+    top: 15%;
+    right: 17%;
+}
+
+.small_balloon2 {
+    position: absolute;
+    top: 8%;
+    right: 23%;
+}
+
+.big_balloon {
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.date {
+    margin-left: 10%;
+}
+
+.cost {
+    margin-left: 18%;
+
+}
+
+.price_date {
+    margin-top: 15%;
+}
+
+
+
+.inputs h3 {
+    font-family: 'Roboto Condensed';
+    padding-top: 8%;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#inp1,
+#inp2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 18px;
+    border: 1px solid #E2AB3F;
+    color: #000;
+}
+
+.price_date .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.inputs {
+    margin-top: 30%;
+}
+
+.input_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inp1::placeholder,
+#inp2::placeholder {
+    color: #000;
+
+}
+
+#inp1,
+#inp2 {
+    width: 100%;
+    padding: 15px 31px;
+
+}
+
+.inputs button {
+    font-family: 'Roboto Condensed';
+    border: 1px solid #E2AB3F;
+    font-weight: 300;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    padding: 10px 45px;
+    width: 80%;
+    margin-top: 20px;
+
+
+}
+
+.inp1_div,
+.inp2_div {
+    width: 100%;
+}
+
+.inp1_div {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: url(../images/footerimg.png)center / cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.footer.container {
+    height: 100vh;
+}
+
+.contacts_p p {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+.shar {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    background: url(../images/white-balloon.png) no-repeat;
+    height: 75vh;
+    width: 31%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12%;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+.contacts_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_p img {
+    margin-right: 12px;
+}
+
+.contacts h2 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 86px;
+    color: #E2AB3F;
+}
+
+#phone2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+#mail {
+    display: flex;
+    align-items: center;
+}
+
+.footer_title h2 {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 86px;
+    color: #000;
+}
